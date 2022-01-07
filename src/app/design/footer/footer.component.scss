@@ -1,0 +1,19 @@
+@import "../../../assets/css/colors";
+
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  max-height: 10rem;
+  height: 8rem;
+  background-color: $mt-one;
+  padding: 2rem 0;    
+}
+
+
+.v-bar{
+    min-height: 100%;
+    border-right: .1rem solid $secondary-theme;
+    margin: .2rem 0;
+    overflow: hidden;
+}
