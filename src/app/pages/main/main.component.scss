@@ -2,8 +2,16 @@
 @import "../../../assets/css/colors";
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
-// Credit for the cards: https://codepen.io/andrewsims/pen/mQoYwz
+// Bootstrap custom
+.container-fluid{
+  margin: 1rem 0;
+}
 
+li{
+  list-style-type: none;
+}
+
+// Credit for the cards: https://codepen.io/andrewsims/pen/mQoYwz
 .go-bg-1{
     background-color: $mt-one;
 }
@@ -49,11 +57,15 @@
     color: white;
     font-family: courier, sans;
   }
-
+.showcard{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 .card1, .card2, .card3, .card4 {
     display: block;
     position: relative;
-    max-width: 26.2rem;
+    min-height: 12rem;
     background-color: #f2f8f9;
     border-radius: .4rem;
     padding: 1.2rem 1.4rem;
