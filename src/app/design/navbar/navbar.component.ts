@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LINKS } from 'src/app/mock/enum';
 
 @Component({
   selector: 'app-navbar',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  public links = LINKS;
+
+  constructor() {
+    console.log("NAV :: ", this.links.Home);
+  }
 
   ngOnInit(): void {
   }

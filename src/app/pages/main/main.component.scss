@@ -11,6 +11,18 @@ li{
   list-style-type: none;
 }
 
+// Mission Statement
+.MS-content{
+  text-align: center;
+}
+
+.ad-space{
+  height: 3rem;
+  width: 100%;
+  background-color: $black;
+  margin: .5rem 0;
+}
+
 // Credit for the cards: https://codepen.io/andrewsims/pen/mQoYwz
 .go-bg-1{
     background-color: $mt-one;
