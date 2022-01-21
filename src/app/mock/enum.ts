@@ -5,17 +5,24 @@ export enum Business{
     ZIPCODE = "43147"
 }
 
-export const BUSINESSLIST = {
-    "NAMES": [
-        "DI Tech",
-        "Pickerington Tech"
-    ]
-}
+export const BUSINESSLIST =
+[
+    {
+        "name": "MAIN",
+        "link": "/main"
+    },
+    {
+        "name": "ABOUT",
+        "link": "/about"
+    }
+]
+// {
+// "name":
+//     ["HOME", "ABOUT"],
+// "route":
+//     ["/main", "/about"]
+// }
 
-export const LINKS = {
-    "Home":"/main",
-    "ABOUT": "/abot",
-}
 
 export enum PageContent{
     HEADLINES = ''
